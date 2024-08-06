@@ -1,0 +1,34 @@
+.cart {
+  text-align: left;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.cart li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cart li button:hover {
+  background-color: #c82333;
+}
